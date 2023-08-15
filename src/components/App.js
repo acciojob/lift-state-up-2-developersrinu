@@ -1,13 +1,15 @@
+import React from 'react';
+import './App.css';
 
-import React from "react";
-import './../styles/App.css';
+import Parent from './Parent';
 
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="App">
+      <Parent />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
